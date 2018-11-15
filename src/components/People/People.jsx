@@ -27,7 +27,7 @@ class People extends Component {
                                 <h5 className="card-title">{person.name}</h5>
                                 <p className="card-text">{person.gender}</p>
                                 <h6 className="card-subtitle mb-2 text-muted">Studio Ghibli</h6>
-                                <Link to={`/people/${person.id}`}>More info</Link>
+                                <Link className="btn btn-secondary" to={`/people/${person.id}`}>More info</Link>
                             </div>
                         </div>
                     )

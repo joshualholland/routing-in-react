@@ -26,7 +26,7 @@ class Person extends Component {
                     <h6 className="card-subtitle mb-2 text-muted">Sex: {this.state.person.gender}</h6>
                     <p className="card-text">Hair Color: {this.state.person.hair_color}</p>
                     <h6 className="card-subtitle mb-2 text-muted">Eye Color: {this.state.person.eye_color}</h6>
-                    <a href={this.state.person.films} className="card-subtitle mb-2 text-muted">Seen in</a>
+                    <a href={this.state.person.films} type='button' className="btn btn-secondary">Seen in</a>
                 </div>
             </div>
         )
